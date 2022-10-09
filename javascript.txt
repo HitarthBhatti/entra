@@ -1,0 +1,174 @@
+there  are  4 ways to define a variable 
+using var
+using let
+using const
+using nothing
+
+var - (1995 to 2015)
+let , const  were added to js in (2015)
+
+------------------------------------------------------------------
+let ->if you think that the value may change in change
+let variable cannot be redeclared;
+
+eg let x= "john";
+   let x = 5;         ----------  X
+
+
+{let x=5}
+let x= 6
+
+let variable has block scope;
+variable declared inside a  {  } block cannot be accessed from outside the block
+----------------------------------------------------------------------------------
+const-
+
+where the value is fixed there use const - const pie = 3.14
+const variable cannot be redeclared;
+const variable has block scope;
+variable declared inside a  { } block cannot be accessed from outside the block
+
+----------------------------------------------------------------------------------
+ Arithmetic operator
++ -> addition
+- -> subtraction
+* -> multiplication
+/  -> Division
+**  -> exponentiation
+%  -> Modulous
+++ -> increment-  post(after) ,
+ pre (before)
+-- -> Decrement
+
+comparison operator
+== is equal to 
+!= not equal to
+<
+>
+>=
+<=
+
+logical operator
+
+and - &&
+or -  ||
+
+
+
+if and else
+-----------------------
+
+if (condition){
+    // block of the code that is going to execute
+} else{
+   // block of the code that is going to execute
+}
+
+
+-----------------------------
+if (condition1){
+    // block of the code that is going to execute
+} elseif(condition2){
+   // block of the code that is going to execute
+}elseif(condition3){
+
+    // block of the code that is going to execute
+}
+
+---------------------------------------------------------
+var date = new Date.getDay();   //3
+switch(expresssion){
+
+  case 1 :
+      //code
+         break;
+  case 2 :
+      //code
+         break;
+  case 3 :
+      //code
+         break;
+  default:
+      //code
+
+}
+
+default- default keyword specifies the code to run if there is no case match
+
+---------------------------------------------------------------------------------------------
+loops
+-------
+for
+for/in
+for/of
+while
+do/while
+
+--------------------
+for(statement1; statement 2; statement 3){
+     //code
+}
+statement 1 -> is executed (one time) before executing the code
+statement 2 ->  condition for which the code will run
+statement 3 -> is executed( every time) after the code block has been executed
+
+running procedure
+statement 1 > code > condition check(statement 2) > statement 3 
+ eg ->
+for(var a=1; a<11; a++){
+  document.write(a + ",");
+}
+
+------------------------------------------------------------------------------------------------------
+while loop runs the loop through a block of code as long as a specified condition is true
+
+while (condition){
+ // code block to be executed
+}
+
+var a= 0;
+while(a<11){
+   
+   document.write(a);
+   a++;
+
+
+}
+
+-----------------------------------------------------------------------------------------------
+do while loop
+ this loop will execute the code once before checking the conditiion
+
+
+do{
+//code that we want to execute
+}
+
+while(condition);
+
+-===============================================================================================
+
+Array - An array is a special variable which can hold more than one value
+
+const names = [
+                "sachin",
+                "deepak", 
+                "virat",
+                "hitarth"
+                          ];
+names[2]= "raju";
+
+-------------------------------
+
+Note - Array index start with 0
+
+const cars = [];
+cars[0] = "volvo";
+cars[1] = "BMW";
+
+
+
+
+
+
+

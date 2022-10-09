@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            border: 2px solid red;
+            background-color: darkolivegreen;
+            height: 100px;
+            width: 100px;
+        }
+
+        .container {
+            margin: 10px;
+            display: grid;
+            grid-row-gap: 10px;
+            grid-column-gap: 10px;
+            /* grid-template-columns: 200px 200px 200px; */
+            /* grid-template-columns: 3fr 5fr 2fr; */
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container #fb img {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="fb"><img src="download.jpg" alt="no image"></div>
+        <div class="card">Item2</div>
+        <div class="card">Item3</div>
+        <div class="card">Item4</div>
+        <div class="card">Item5</div>
+        <div class="card">Item6</div>
+        <div class="card">Item7</div>
+        <div class="card">Item8</div>
+        <div class="card">Item9</div>
+    </div>
+</body>
+
+</html>
